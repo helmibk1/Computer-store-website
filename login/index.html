@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Enhance Required Form Fields with CSS3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Enhance Required Form Fields with CSS3" />
+        <meta name="keywords" content="form, html5, css3, animated, transition, required, filter" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!--[if lt IE 8]>
+			<style>
+				.af-wrapper{display:none;}
+				.ie-note{display:block;}
+			</style>
+		<![endif]-->
+    </head>
+    <body>
+     	
+			<header>
+        <div class='header'>
+          <img class='logo' src="logo.gif">
+        </div>
+          <nav>
+            <ul class='ul'>
+               <a href="progetpages/page.html"><li>home </li></a>
+                <a href="#"><li>laptops
+                 <ul class='ul'>
+                      <a href="#"><li>laptops</li></a>
+                    <a href="#"><li>lap gamer</li></a>
+                      <a href="#"><li>lap mac</li></a>
+                  </ul>
+               </li></a>
+                <a href="#"><li>pc desk 
+                 <ul class='ul'>                      
+                  <a href="#"><li>pc desk</li></a>
+                    <a href="#"><li>pc gamer</li></a>
+                      <a href="#"><li>pc mac</li></a>
+                  </ul>
+               </li></a>
+               <a href="#"><li>tablet pc
+                <ul class='ul'> 
+                  <a href="#"><li>Ipad</li></a>
+                    <a href="#"><li>android</li></a>
+                      <a href="#"><li>windows 8</li></a>
+                  </ul>
+               </li></a>
+                 <a href="#"><li>printers    
+                  <ul class='ul'>
+                      <a href="#"><li>prin laser</li></a>
+                    <a href="#"><li>prin multifonction</li></a>
+                      <a href="#"><li>prin Inkjet</li></a>
+                  </ul>
+                </li></a>
+                 <a href="#"><li>accessory       
+                  <ul class='ul'>
+                      <a href="#"><li>keyboard</li></a>
+                    <a href="#"><li>mouse</li></a>
+                      <a href="#"><li>helmets</li></a>
+                  </ul>
+                </li></a>
+                 <a href="#"><li>component pc      
+                  <ul class='ul'>
+                      <a href="#"><li>processors</li></a>
+                    <a href="#"><li>Graphics Card</li></a>
+                      <a href="#"><li>Screen pc</li></a>
+                  </ul>
+                </li></a>
+                 <a href="#"><li>storage   
+                  <ul class='ul'>
+                      <a href="#"><li>USB key</li></a>
+                    <a href="#"><li>hard Disc</li></a>
+                      <a href="#"><li>memory card</li></a>
+                  </ul>
+                </li></a>
+                 <a href="#"><li>Smartphones      
+                  <ul class='ul'>
+                      <a href="#"><li>Iphone</li></a>
+                    <a href="#"><li>Galaxy</li></a>
+                      <a href="#"><li>Xperia</li></a>
+                  </ul>
+                </li></a>
+               <a href="#"><li>About</li></a>
+               <a href="#"><li>Contact</li></a>
+            </ul>
+
+        </nav>
+      </header>
+			<div id='home1'>
+				<h5 class='h5id'>Contact</h5>
+				<hr>
+			<div class="content">
+				<div id="form_wrapper" class="form_wrapper"  >
+					<form class="register">
+						<h3>Register</h3>
+						<div class="column">
+							<div>
+								<label>First Name:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Last Name:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Website:</label>
+								<input type="text" value="http://"/>
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="column">
+							<div>
+								<label>Username:</label>
+								<input type="text"/>
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Email:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Password:</label>
+								<input type="password" />
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="remember">
+								<input type="checkbox" />
+								<span>Send me updates</span>
+							</div>
+							<input type="submit" value="Register" />
+							<a href="index.html" rel="login" class="linkform">You have an account already? Log in here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+					<form class="login active">
+						<h3>Login</h3>
+						<div>
+							<label>Username:</label>
+							<input type="text" />
+							<span class="error">This is an error</span>
+						</div>
+						<div>
+							<label>Password: <a href="forgot_password.html" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
+							<input type="password" />
+							<span class="error">This is an error</span>
+						</div>
+						<div class="bottom">
+							<div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
+							<input type="submit" value="Login"></input>
+							<a href="register.html" rel="register" class="linkform">You don't have an account yet? Register here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+					<form class="forgot_password">
+						<h3>Forgot Password</h3>
+						<div>
+							<label>Username or Email:</label>
+							<input type="text" />
+							<span class="error">This is an error</span>
+						</div>
+						<div class="bottom">
+							<input type="submit" value="Send reminder"></input>
+							<a href="index.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
+							<a href="register.html" rel="register" class="linkform">You don't have an account? Register here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+				</div>
+			<div id="form_wrapper" class="form_wrapper">
+					<form class="register active">
+						<h3>Register</h3>
+						<div class="column">
+							<div>
+								<label>First Name:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Last Name:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Website:</label>
+								<input type="text" value="http://"/>
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="column">
+							<div>
+								<label>Username:</label>
+								<input type="text"/>
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Email:</label>
+								<input type="text" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Password:</label>
+								<input type="password" />
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="remember">
+								<input type="checkbox" />
+								<span>Send me updates</span>
+							</div>
+							<input type="submit" value="Register" />
+							<a href="index.html" rel="login" class="linkform">You have an account already? Log in here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+					<form class="login">
+						<h3>Login</h3>
+						<div>
+							<label>Username:</label>
+							<input type="text" />
+							<span class="error">This is an error</span>
+						</div>
+						<div>
+							<label>Password: <a href="forgot_password.html" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
+							<input type="password" />
+							<span class="error">This is an error</span>
+						</div>
+						<div class="bottom">
+							<div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
+							<input type="submit" value="Login"></input>
+							<a href="register.html" rel="register" class="linkform">You don't have an account yet? Register here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+					<form class="forgot_password">
+						<h3>Forgot Password</h3>
+						<div>
+							<label>Username or Email:</label>
+							<input type="text" />
+							<span class="error">This is an error</span>
+						</div>
+						<div class="bottom">
+							<input type="submit" value="Send reminder"></input>
+							<a href="index.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
+							<a href="register.html" rel="register" class="linkform">You don't have an account? Register here</a>
+							<div class="clear"></div>
+						</div>
+					</form>
+				</div>
+        </div>
+    </div>
+        <footer class='fot1'>
+				   <h2>Mulivision Informatique</h2>
+				   <p>Copyright © 2014 - MultiVision Informatique</p>
+				<div id="navfoot">
+					
+					<ul id='ulfot'>
+						<li class='lifot'>Accueil</li>
+						<li class='lifot'>Pc portables</li>
+						<li class='lifot'>Pc bureau</li>
+						<li class='lifot'>Tablettes pc</li>
+						<li class='lifot'>Imprimantes</li>
+						<li class='lifot'>Accesoire</li>
+						<li class='lifot'>Composant pc</li>
+						<li class='lifot'>Ecrans</li>
+						<li class='lifot'>smartphones</li>
+						<li class='lifot'>blog</li>
+						<li class='lifot'>contact</li>
+					</ul>
+				</div><!-- /container -->
+		
+				
+			</footer>
+    </body>
+</html>
